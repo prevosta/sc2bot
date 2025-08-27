@@ -1,0 +1,209 @@
+time_ms,supply,type,name,location
+17625,12,U,SCV,"(172, 77)"
+23312,13,B,SupplyDepot,"(160, 85)"
+34562,13,U,SCV,"(175, 73)"
+38687,14,B,Refinery,"(171, 69)"
+51500,14,U,SCV,"(175, 73)"
+60500,15,B,Barracks,"(162, 84)"
+70375,15,U,SCV,"(174, 73)"
+87312,16,U,SCV,"(175, 73)"
+104250,17,U,SCV,"(178, 75)"
+121187,18,U,SCV,"(178, 75)"
+145312,19,B,CommandCenter,"(149, 74)"
+145312,19,G,SprayTerran,
+154062,19,C,SupplyDepotLowered,
+157812,19,B,Factory,"(161, 87)"
+162875,19,C,OrbitalCommand,
+163500,19,U,MULE,"(180, 76)"
+172250,19,B,Refinery,"(182, 79)"
+172687,19,U,Reaper,"(160, 83)"
+180312,20,U,SCV,"(172, 77)"
+184750,21,B,SupplyDepot,"(163, 82)"
+186687,21,B,BarracksTechLab,"(165, 84)"
+197250,21,U,SCV,"(178, 77)"
+212437,22,C,BarracksFlying,
+212500,22,C,TechLab,
+214187,22,U,SCV,"(178, 75)"
+218062,23,C,FactoryFlying,
+223250,23,C,Barracks,
+225875,23,C,Factory,
+225937,23,C,FactoryTechLab,
+227812,23,C,BarracksFlying,
+231750,23,U,SCV,"(178, 75)"
+236250,24,B,Starport,"(168, 72)"
+241812,24,C,Barracks,
+245312,24,G,SprayTerran,
+248687,24,U,SCV,"(178, 75)"
+251125,25,B,BarracksTechLab,"(171, 75)"
+253250,25,U,MULE,"(181, 75)"
+256750,25,C,SupplyDepot,
+264625,25,C,SupplyDepotLowered,
+264812,25,C,SupplyDepotLowered,
+265625,25,U,SCV,"(178, 75)"
+271250,26,U,Cyclone,"(160, 82)"
+273687,26,B,Barracks,"(174, 81)"
+276812,26,C,BarracksFlying,
+276875,26,C,TechLab,
+282562,26,U,SCV,"(172, 77)"
+284562,27,C,Barracks,
+284562,27,B,BarracksReactor,"(171, 78)"
+286375,27,G,BansheeCloak,
+287437,27,C,StarportFlying,
+293687,27,C,OrbitalCommand,
+294750,27,B,Refinery,"(145, 67)"
+294750,27,U,MULE,"(154, 74)"
+295187,27,C,Starport,
+295187,27,C,StarportTechLab,
+299500,27,U,SCV,"(173, 78)"
+311375,28,U,SCV,"(149, 71)"
+314687,29,B,SupplyDepot,"(180, 70)"
+316437,29,U,SCV,"(173, 78)"
+327625,30,B,Barracks,"(162, 87)"
+328312,30,U,SCV,"(149, 71)"
+333375,31,U,SCV,"(173, 78)"
+338625,32,C,FactoryFlying,
+338687,32,C,TechLab,
+339000,32,C,BarracksFlying,
+345250,32,U,SCV,"(149, 71)"
+345500,33,U,MULE,"(149, 69)"
+350312,33,U,SCV,"(173, 78)"
+350500,34,C,Factory,
+356625,34,C,Barracks,
+356625,34,C,BarracksTechLab,
+358500,34,G,Stimpack,
+359062,34,B,SupplyDepot,"(154, 68)"
+360500,34,U,Marine,"(167, 76)"
+360687,35,U,Marine,"(166, 77)"
+362187,36,U,SCV,"(149, 71)"
+367250,37,U,SCV,"(173, 78)"
+367812,38,U,Banshee,"(166, 74)"
+369875,38,C,SupplyDepotLowered,
+375562,38,B,EngineeringBay,"(184, 73)"
+379125,38,U,SCV,"(149, 71)"
+384187,39,U,SCV,"(173, 78)"
+386562,40,B,Bunker,"(145, 79)"
+386750,40,B,FactoryReactor,"(172, 84)"
+391000,40,U,Marine,"(167, 76)"
+391187,41,U,Marine,"(166, 77)"
+392187,42,U,Marine,"(162, 82)"
+393250,43,U,MULE,"(151, 69)"
+397125,43,U,SCV,"(149, 71)"
+401125,44,U,SCV,"(173, 78)"
+410062,45,B,SupplyDepot,"(182, 70)"
+414062,45,U,SCV,"(149, 71)"
+415937,46,U,Marine,"(166, 79)"
+418062,47,U,SCV,"(173, 78)"
+423187,48,U,Marine,"(166, 79)"
+423375,49,U,Marine,"(161, 85)"
+424750,50,U,Marine,"(160, 83)"
+426250,51,C,BarracksFlying,
+427750,51,U,Banshee,"(167, 73)"
+427875,51,C,StarportFlying,
+427937,51,C,TechLab,
+431000,51,U,SCV,"(149, 71)"
+435000,52,U,SCV,"(173, 78)"
+436250,53,C,Starport,
+436250,53,B,StarportReactor,"(169, 72)"
+437750,53,B,SupplyDepot,"(159, 70)"
+439062,53,B,SupplyDepot,"(160, 73)"
+444937,53,C,Barracks,
+444937,53,C,BarracksTechLab,
+446250,53,G,ShieldWall,
+451562,53,U,MULE,"(149, 69)"
+454875,53,B,SupplyDepot,"(148, 67)"
+456000,53,G,PunisherGrenades,
+461500,53,B,Refinery,"(142, 71)"
+463000,53,G,TerranInfantryWeaponsLevel1,
+465125,53,U,Marine,"(166, 79)"
+465125,54,U,Marine,"(166, 78)"
+475812,55,U,Marauder,"(160, 83)"
+476000,57,U,Marauder,"(168, 73)"
+477750,59,U,WidowMine,"(169, 82)"
+483562,59,B,SupplyDepot,"(156, 67)"
+483750,59,B,SupplyDepot,"(159, 67)"
+497312,59,U,Marine,"(166, 79)"
+497625,60,U,Marine,"(166, 79)"
+497750,61,U,WidowMine,"(169, 82)"
+505750,61,U,Marauder,"(160, 83)"
+505937,63,U,Marauder,"(168, 73)"
+509375,65,U,MULE,"(155, 73)"
+509812,65,U,WidowMine,"(169, 82)"
+517750,65,C,SupplyDepotLowered,
+517750,65,C,SupplyDepotLowered,
+517750,65,C,SupplyDepotLowered,
+517750,65,C,SupplyDepotLowered,
+517750,65,C,SupplyDepotLowered,
+517750,65,C,SupplyDepotLowered,
+520625,65,B,SupplyDepot,"(152, 67)"
+522250,65,U,Marine,"(166, 79)"
+522562,66,U,Marine,"(166, 79)"
+526125,67,U,SCV,"(173, 78)"
+526312,68,U,SCV,"(149, 71)"
+530750,69,U,WidowMine,"(167, 83)"
+535687,69,U,Marauder,"(160, 83)"
+535875,71,U,Marauder,"(166, 77)"
+539000,73,U,Medivac,"(165, 74)"
+539250,75,U,Medivac,"(164, 73)"
+543062,77,U,SCV,"(173, 78)"
+543625,78,U,WidowMine,"(167, 83)"
+549000,78,B,SupplyDepot,"(150, 66)"
+553062,78,B,SupplyDepot,"(152, 65)"
+553125,78,U,Marine,"(166, 79)"
+553312,79,U,Marine,"(166, 78)"
+565625,80,U,Marauder,"(160, 83)"
+565812,82,U,Marauder,"(166, 77)"
+578375,84,U,SCV,"(173, 78)"
+578562,85,U,SCV,"(149, 71)"
+579500,86,U,Marine,"(166, 79)"
+579750,87,U,Marine,"(166, 79)"
+582187,88,U,Medivac,"(165, 74)"
+582375,90,U,Medivac,"(164, 73)"
+585687,92,C,WidowMineBurrowed,
+585687,92,C,WidowMineBurrowed,
+585812,92,C,WidowMineBurrowed,
+585875,92,C,WidowMineBurrowed,
+586000,92,U,WidowMine,"(167, 83)"
+586125,92,U,WidowMine,"(167, 84)"
+595500,92,U,Marine,"(166, 76)"
+600312,93,U,Marauder,"(160, 83)"
+613750,95,B,CommandCenter,"(151, 82)"
+613750,95,G,SprayTerran,
+614750,95,C,WidowMine,
+614875,95,C,WidowMine,
+614875,95,C,WidowMine,
+615937,95,U,WidowMine,"(167, 83)"
+616062,95,U,WidowMine,"(167, 84)"
+617437,95,U,Marine,"(166, 79)"
+617625,96,U,Marine,"(166, 78)"
+623562,97,C,WidowMineBurrowed,
+623625,97,C,WidowMineBurrowed,
+623625,97,C,WidowMineBurrowed,
+625437,97,U,Marauder,"(166, 77)"
+630250,99,U,Marauder,"(160, 83)"
+633937,101,C,WidowMineBurrowed,
+634125,101,C,WidowMineBurrowed,
+638062,101,C,WidowMine,
+638125,101,C,WidowMine,
+638125,101,C,WidowMine,
+638437,101,U,SCV,"(173, 78)"
+638562,102,U,SCV,"(149, 71)"
+640125,103,C,WidowMine,
+640250,103,C,WidowMine,
+640937,103,C,WidowMineBurrowed,
+641375,103,C,WidowMineBurrowed,
+641500,103,C,WidowMineBurrowed,
+641812,103,C,WidowMineBurrowed,
+641875,103,C,WidowMineBurrowed,
+647562,103,U,WidowMine,"(167, 83)"
+649250,103,B,Barracks,"(139, 75)"
+650250,103,B,Barracks,"(139, 80)"
+655000,103,U,WidowMine,"(167, 83)"
+655375,103,U,Marauder,"(166, 77)"
+659437,105,C,WidowMineBurrowed,
+659500,105,C,WidowMineBurrowed,
+660187,105,U,Marauder,"(160, 83)"
+670062,107,U,Marine,"(166, 79)"
+670312,108,U,Marine,"(166, 79)"
+685250,109,U,WidowMine,"(167, 83)"
+685312,109,U,Marauder,"(166, 77)"
+690187,111,U,Marauder,"(160, 83)"

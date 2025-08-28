@@ -1,7 +1,4 @@
 from sc2.bot_ai import BotAI
-from sc2.ids.unit_typeid import UnitTypeId
-from sc2.ids.ability_id import AbilityId
-
 
 async def saturate_gas(bot_instance: BotAI):
     """Saturate refineries with workers."""
@@ -12,12 +9,6 @@ async def saturate_gas(bot_instance: BotAI):
                 if worker.is_gathering and not worker.is_carrying_minerals:
                     worker.gather(refinery)
                     break
-
-
-async def back_to_mining(bot_instance: BotAI):
-    """Send idle workers back to mining."""
-    for scv in bot_instance.workers.idle:
-        scv.gather(bot_instance.mineral_field.closest_to(scv))
 
 
 async def balance_workers(bot_instance: BotAI):
@@ -40,12 +31,3 @@ async def balance_workers(bot_instance: BotAI):
                 minerals_near_under = bot_instance.mineral_field.closer_than(10, under_cc)
                 if minerals_near_under:
                     worker.gather(minerals_near_under.closest_to(under_cc))
-
-
-async def mule_drop(bot_instance: BotAI):
-    """Drop MULEs on mineral patches."""
-    for oc in bot_instance.structures(UnitTypeId.ORBITALCOMMAND).ready:
-        if oc.energy >= 50:
-            mfs = bot_instance.mineral_field.closer_than(10, oc)
-            if mfs:
-                oc(AbilityId.CALLDOWNMULE_CALLDOWNMULE, mfs.random)

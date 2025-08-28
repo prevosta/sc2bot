@@ -19,7 +19,7 @@ def count_planned_structures(bot: BotAI, structure_type: UnitTypeId) -> int:
     Count structures that workers are en route to build.
     """
     planned_count = 0
-    
+
     # Count planned structures (workers en route)
     for worker in bot.workers:
         if worker.orders:
@@ -31,7 +31,7 @@ def count_planned_structures(bot: BotAI, structure_type: UnitTypeId) -> int:
     
     return planned_count
 
-def count_structures(bot: BotAI, structure_type: UnitTypeId) -> int:
+def count_structure(bot: BotAI, structure_type: UnitTypeId) -> int:
     """
     Count structures in ALL states including workers en route, upgrades, etc.
     """
@@ -74,6 +74,9 @@ def count_units(bot: BotAI, unit_type: UnitTypeId) -> int:
     - Units being morphed/transformed
     """
     total_count = 0
+
+    if unit_type is UnitTypeId.SCV:
+        return bot.supply_workers
     
     # 1. Count completed units on the map
     total_count += bot.units(unit_type).amount
@@ -180,15 +183,17 @@ async def create_unit(bot: BotAI, unit_type: UnitTypeId, count: int = None, targ
 async def maintain_supply(bot: BotAI, supply_threshold: int = 12, max_simultaneous: int = 2):
     """Maintain supply by building depots when needed."""
     count_planned = count_planned_structures(bot, UnitTypeId.SUPPLYDEPOT)
+    count = count_structure(bot, UnitTypeId.SUPPLYDEPOT) + count_structure(bot, UnitTypeId.SUPPLYDEPOTLOWERED)
     if bot.supply_left < supply_threshold and count_planned < max_simultaneous:
         if bot.can_afford(UnitTypeId.SUPPLYDEPOT):
-            await create_supply(bot, near=bot.start_location.towards(bot.enemy_start_locations[0], -7))
+            placement = bot.map_analysis.unit_placement["supply"][count]
+            await create_supply(bot, near=Point2((placement[0], placement[1])))
 
 async def create_supply(bot_instance: BotAI, near=None):
     """Create a supply depot at a given location (default: near first townhall)."""
     if near is None:
         near = bot_instance.townhalls.first
-    await bot_instance.build(UnitTypeId.SUPPLYDEPOT, near=near)
+    await bot_instance.build(UnitTypeId.SUPPLYDEPOT, near=near, max_distance=8)
 
 async def next_expansion(bot_instance: BotAI):
     """
